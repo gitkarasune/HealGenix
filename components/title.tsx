@@ -1,6 +1,6 @@
+import { Link } from "lucide-react";
 import React from "react";
 import { Button } from "./ui/button";
-import Link from "next/link";
 
 export default function Title() {
   return (
@@ -20,11 +20,12 @@ export default function Title() {
       </p>
 
       <div className="max-w-[500px] mx-auto">
-        <Link href={""}>
-          <Button className="w-full" size={"lg"}>
-            Join Now
-          </Button>
-        </Link>
+        <Button className="w-full" size={"lg"}>
+          <Link href={"/signup"}>
+            <a>Join Now</a>
+          </Link>
+          Join Now
+        </Button>
       </div>
     </>
   );

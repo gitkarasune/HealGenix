@@ -20,7 +20,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-        className="h-8 rounded-md px-4 text-xs  hover:bg-accent hover:text-accent-foreground"
+        className="h-8 w-8 flex items-center justify-center text-xl rounded-full hover:bg-accent hover:text-accent-foreground"
         onClick={() => {
             setTheme(resolvedTheme === 'dark' ? 'light': 'dark')
         }}
