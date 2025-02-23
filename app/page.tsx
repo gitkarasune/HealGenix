@@ -10,7 +10,7 @@ export default function Home() {
       <div className="max-w-[500px] mx-auto">
         <Link href={"/signup"}>
           <Button className="w-full" size={"lg"}>
-          Join HealGenix Waitlist →
+          Join HealGenix Waitlist {"→"}
           </Button>
         </Link>
       </div>

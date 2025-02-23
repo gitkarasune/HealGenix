@@ -21,25 +21,15 @@ export default function Title() {
           <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
           <div className="relative space-y-4 backdrop-blur-sm rounded-lg p-8 shadow-xl max-w-5xl mx-auto">
             <p className="text-[15px] lg:text-lg text-gray-900 dark:text-white/85 leading-relaxed">
-              Say goodbye to one-size-fits-all solutions and embrace a [15px]arter
-              way to heal. Our AI platform analyzes over 5,000 natural
-              compounds, unique properties of herbs, roots, and natural
-              ingredients to create personalized remedies for knee/leg pain,
-              ulcers, chest/heart pain, and sexual health enhancement.
+              Say goodbye to one{"-"}size{"-"}fits{"-"}all solutions and embrace a
+              smarter way to heal. Our AI platform analyzes over 5,000
+              natural compounds, unique properties of herbs, roots, and natural
+              ingredients to create personalized remedies for knee{"/"}leg pain,
+              ulcers, chest{"/"}heart pain, and sexual health enhancement.
             </p>
 
             <p className="text-[15px] lg:text-lg text-gray-900 dark:text-white/85 leading-relaxed">
-              Using advanced phytonutrient profiling and predictive analytics,
-              we create bespoke remedies that adapt to your unique biochemistry.
-              Join pioneers in next-generation wellness and experience nature's
-              power, perfected by AI.
-              {/* Be part of a health revolution that combines the power of artificial
-          intelligence with the purity of nature. This is the right place for
-          you.{" "}
-          <span className="font-medium">
-            Join our waitlist today and be the first to experience the future of
-            natural healing.
-          </span> */}
+              Be part of a health revolution that combines the power of artificial intelligence with the purity of nature. <span className="font-medium">Join our waitlist today and be the first experience the future of natural healing.</span>
             </p>
           </div>
         </div>
