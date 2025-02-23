@@ -11,14 +11,14 @@ export default function Title() {
       </div>
 
       <div className="relative z-10 max-w-4xl">
-        <h1 className="text-5xl font-bold pt-[105px] mb-6 mx-auto max-w-3xl text-center">
+        <h1 className="text-4xl font-bold pt-[105px] mb-6 mx-auto max-w-3xl text-center">
           Discover Personalized, Nature-Based Solutions for Knee Pain, Ulcers,
           Heart Health, and More
         </h1>
 
         {/* Paragraphs with gradient border effect */}
         <div className="relative group mb-6">
-          <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
+          <div className="absolute -inset-1 rounded-lg blur opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
           <div className="relative space-y-4 backdrop-blur-sm rounded-lg p-8 shadow-xl max-w-5xl mx-auto">
             <p className="text-[15px] lg:text-lg text-gray-900 dark:text-white/85 leading-relaxed">
               Say goodbye to one{"-"}size{"-"}fits{"-"}all solutions and embrace a
