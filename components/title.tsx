@@ -11,7 +11,7 @@ export default function Title() {
       </div>
 
       <div className="relative z-10 max-w-4xl text-center">
-        <h1 className="text-5xl font-bold pt-[105px] mb-5 mx-auto max-w-3xl">
+        <h1 className="text-5xl font-bold pt-[105px] mb-6 mx-auto max-w-3xl">
           Discover Personalized, Nature-Based Solutions for Knee Pain, Ulcers,
           Heart Health, and More
         </h1>
@@ -19,7 +19,7 @@ export default function Title() {
         {/* Paragraphs with gradient border effect */}
         <div className="relative group mb-6">
           <div className="absolute -inset-1 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition-opacity duration-300" />
-          <div className="relative space-y-8 bg-[black] backdrop-blur-sm rounded-lg p-8 shadow-xl">
+          <div className="relative space-y-8 dark:bg-[#141313] bg-white/90 backdrop-blur-sm rounded-lg p-8 shadow-xl">
             <p className="text-xl text-gray-900 leading-relaxed">
               Say goodbye to one-size-fits-all solutions and embrace a smarter
               way to heal. Our AI platform analyzes over 5,000 natural
