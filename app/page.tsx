@@ -1,4 +1,4 @@
-import Form from "@/components/form";
+import AuthForm from "@/components/form";
 import Title from "@/components/title";
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <div className="min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <Title />
 
-      <Form />
+      <AuthForm />
     </div>
   );
 }

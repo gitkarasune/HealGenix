@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-const Form = () => {
+const AuthForm = () => {
     const [isLogin, setIsLogin] = useState(true);
 
     const toggleAuthMode = () => {
@@ -58,4 +58,4 @@ const Form = () => {
     );
 };
 
-export default Form;
+export default AuthForm;
