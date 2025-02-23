@@ -14,7 +14,7 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-4 pt-32">
+    <div className="flex items-center justify-center flex-col min-h-screen p-4">
       <Card className="w-full max-w-[500px] shadow-lg">
         <CardHeader></CardHeader>
         <CardContent>
