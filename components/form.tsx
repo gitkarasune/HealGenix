@@ -13,30 +13,22 @@ const AuthForm = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-            <Card className="w-full max-w-md shadow-lg">
-                <CardHeader>
-                    <CardTitle className="text-2xl font-bold text-center">
-                        {isLogin ? "Login" : "Sign Up"}
-                    </CardTitle>
-                </CardHeader>
+        <div className="flex items-center justify-center p-4">
+            <Card className="w-full max-w-[500px] shadow-lg">
+                <CardHeader></CardHeader>
                 <CardContent>
                     <form className="space-y-4">
                         {!isLogin && (
                             <div>
                                 <label className="block text-sm font-medium mb-1">Name</label>
-                                <Input placeholder="Enter your name" required />
+                                <Input className="py-6 rounded-xl" placeholder="Enter your name" required />
                             </div>
                         )}
                         <div>
                             <label className="block text-sm font-medium mb-1">Email Address</label>
-                            <Input type="email" placeholder="Enter your email" required />
+                            <Input className="py-6 rounded-xl" type="email" placeholder="Enter your email" required />
                         </div>
-                        <div>
-                            <label className="block text-sm font-medium mb-1">Password</label>
-                            <Input type="password" placeholder="Enter your password" required />
-                        </div>
-                        <Button className="w-full" type="submit">
+                        <Button className="w-full" size={'lg'} type="submit">
                             {isLogin ? "Login" : "Sign Up"}
                         </Button>
                     </form>
