@@ -135,3 +135,49 @@ html {
   border-radius: 10px;
   border: 1px solid #f1f1f1;
 }
+
+
+@keyframes gradient-rotate {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.animate-gradient-rotate {
+  animation: gradient-rotate 40s linear infinite;
+}
+
+h1 {
+  background: linear-gradient(
+    45deg,
+    #16a34a 20%,
+    #4f46e5 45%,
+    #16a34a 70%,
+    #4f46e5 95%
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: text-gradient 8s ease infinite;
+  text-shadow: 0 2px 8px rgba(22, 163, 74, 0.15);
+}
+
+@keyframes text-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+button {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+button span:first-child {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover span:first-child {
+  transform: rotateX(25deg) rotateY(15deg);
+  filter: brightness(1.2);
+}

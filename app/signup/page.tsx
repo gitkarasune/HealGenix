@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import countries from "world-countries";
 
-const Signup = () => {
+const SignUpPage = () => {
   const [isLogin, setIsLogin] = useState(true);
 
   const toggleAuthMode = () => {
@@ -14,7 +14,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-4">
+    <div className="flex items-center justify-center p-4 pt-32">
       <Card className="w-full max-w-[500px] shadow-lg">
         <CardHeader></CardHeader>
         <CardContent>
@@ -24,7 +24,7 @@ const Signup = () => {
                 <div>
                   <label className="block text-sm font-medium mb-1">Name</label>
                   <Input
-                    className="py-6 rounded-xl"
+                    className="py-6 rounded-xl dark:outline-gray-900 outline-gray-900"
                     placeholder="Enter your name"
                     required
                   />
@@ -33,7 +33,7 @@ const Signup = () => {
                   <label className="block text-sm font-medium mb-1">
                     Select your country
                   </label>
-                  <select className="w-full p-2 border rounded-lg">
+                  <select className="w-full py-3 border rounded-lg">
                     {countries.map((country) => (
                       <option key={country.cca2} value={country.name.common}>
                         {country.name.common}
@@ -48,7 +48,7 @@ const Signup = () => {
                 Email Address
               </label>
               <Input
-                className="py-6 rounded-xl"
+                className="py-6 rounded-xl dark:outline-gray-900 outline-gray-900"
                 type="email"
                 placeholder="Enter your email"
                 required
@@ -76,4 +76,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUpPage;

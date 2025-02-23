@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "HealGenix",
-  description: "HealGenix Waitlist - Best for Health Care!",
+  description: "HealGenix Waitlist - Best for Your Health!",
 };
 
 export default function RootLayout({
